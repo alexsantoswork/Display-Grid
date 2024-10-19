@@ -1,0 +1,217 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*CONTEUDO*/
+html {
+    font-family: "DM Sans", sans-serif;
+    font-size: 16px;
+}
+
+.main {
+    background-color: #f5f5f5ff;
+}
+
+.container {
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(auto-fit, minmax(6.25em, 1fr));
+    grid-template-rows: repeat(9, 5rem);
+    padding: 4em 6.25em;
+}
+
+.padrao {
+    border-radius: 10px;
+}
+
+.bloco-one {
+    grid-area: 1 / 1 / 5 / 3;
+    padding: 2em 1em;
+    font-size: 2.2em;
+    font-weight: 500;
+    line-height: 0.9em;
+    background-color: #faeee2ff;
+}
+
+.bloco-one span {
+    color: hsl(256, 67%, 59%);
+    font-style: italic;
+}
+
+.bloco-one img {
+    margin-top: 1.25em;
+    width: 100%;
+    height: auto;    
+}
+
+.bloco-two {
+    grid-area: 1 / 3 / 4 / 7;
+    font-size: 3.75em;
+    color: hsl(0, 0%, 100%);
+    line-height: 0.9em;
+    padding-top: 0.5em;
+    background-color: hsl(256, 67%, 59%);
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.bloco-two small {
+    color: hsl(39, 100%, 71%);
+    font-size: 1em;
+}
+
+.bloco-two strong {
+    font-style: italic;
+    font-weight: 400;
+}
+
+.bloco-two img {
+    width: 40%;
+    height: auto;
+    margin-top: 0.3em;
+}
+
+.bloco-two span {
+    font-size: 0.3em;
+    position: relative;
+    bottom: 0.625em;
+}
+
+.bloco-three {
+    grid-area: 1 / 7 / 7 / 9;
+    overflow: hidden;
+    padding: 1.5em 0em 1.25em 1.5em;
+    background-color: hsl(254, 88%, 90%);
+}
+
+.bloco-three h2 {
+    font-size: 2.188em;
+    font-weight: 500;
+    margin-bottom: 0.7em;
+    line-height: 1em;
+}
+
+.bloco-three img {
+    width: 130%;
+    height: auto;
+    margin-bottom: 0.5em;
+}
+
+.bloco-three p {
+    font-size: 1.3em;
+    line-height: 1.2em;
+    padding: 0.9em 0.9em 0em 0em;
+}
+
+.bloco-four {
+    grid-area: 5 / 1 / 10 / 3;
+    padding: 1.5em;
+    background-color: hsl(39, 100%, 71%);
+}
+
+.bloco-four p {
+    font-size: 2.5em;
+    line-height: 1em;
+    font-weight: 500;
+    margin-bottom: 1.5em;
+}
+
+.bloco-four img {
+    width: 107%;
+    height: auto;
+}
+
+.bloco-five {
+    grid-area: 4 / 3 / 7 / 5;
+    padding: 2em;
+    background-color: hsl(0, 0%, 100%);
+    overflow: hidden;
+}
+
+.bloco-five img {
+    width: 150%;
+    height: auto;
+    margin-bottom: 1.5em;
+}
+
+.bloco-five p {
+    font-size: 2.1em;
+    line-height: 1em;
+}
+
+.bloco-six {
+    grid-area: 4 / 5 / 7 / 7;
+    padding: 1.5em;
+    background-color: hsl(39, 100%, 71%);
+    overflow: hidden;
+}
+
+.bloco-six p {
+    font-size: 2em;
+    line-height: 1em;
+    margin-bottom: 1em;
+    font-weight: 500;
+}
+
+.bloco-six img {
+    width: 100%;
+    height: auto;
+}
+
+.bloco-seven {
+    grid-area: 7 / 3 / 10 / 5;
+    padding: 1.5em;
+    background-color: hsl(0, 0%, 100%);
+}
+
+.bloco-seven small {
+    font-size: 4em;
+}
+
+.bloco-seven p {
+    font-size: 1.1em;
+    padding-bottom: 2em;
+    position: relative;
+    top: 0.5em;
+}
+
+.bloco-seven img {
+    width: 100%;
+    height: auto;
+}
+
+.bloco-eight {
+    grid-area: 7 / 5 / 10 / 9;
+    display: flex;
+    align-items: center;
+    padding: 1.5em;
+    background-color: hsl(256, 67%, 59%);
+}
+
+.bloco-eight img {
+    width: 55%;
+    height: auto;
+    padding-right:0.6em ;
+}
+
+.bloco-eight p {
+    font-size: 2.2em;
+    color: hsl(0, 0%, 100%);
+}
+
+.attribution {
+    font-size: 0.7em;
+    text-align: center;
+    padding: 1em;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}

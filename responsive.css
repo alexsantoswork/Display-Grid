@@ -1,0 +1,134 @@
+@media (max-width: 740px) {
+
+    .container {
+        display: grid;
+        grid-template-columns: 1fr ;
+        grid-template-rows: repeat(39, auto);
+        padding: 4em 2em;
+    }
+
+    .bloco-two {
+        grid-area: 1 / 1 / 4 / 1 ;
+        font-size: 8vw;
+        /* padding: 3em; */
+    }
+
+    .bloco-two p {
+        width: 50%;
+    }
+
+    .bloco-two img {
+        width: 40%;
+    }
+
+    .bloco-five {
+        grid-area: 4 / 1 / 7 / 1;
+    }
+
+    .bloco-five img {
+        width: 100%;
+    }
+
+    .bloco-five p {
+        font-size: 7vw;
+        line-height: 1em;
+    }
+
+    .bloco-six {
+        grid-area: 7 / 1 / 8 / 1;
+        padding: 3em 3em 0em 2em;
+        overflow: hidden;
+    }
+
+    .bloco-six p {
+        font-size: 7vw;
+    }
+
+    .bloco-six img {
+        width: 70% ;
+        height: auto;
+        position: relative;
+        top: 30px;
+    }
+
+    
+    .bloco-three {
+        grid-area: 11 / 1 / 20 / 1;
+        padding: 30px 30px 50px;
+        text-align: center;
+        align-items: center;
+    }
+
+    .bloco-three h2 {
+        font-size: 7vw;
+    }
+
+    .bloco-three img {
+        width: 100%;
+    }
+
+    .bloco-three p {
+        font-size: 5.5vw;
+        max-width: 100%;
+        margin-left: 10px;
+    }
+
+    .bloco-eight {
+        grid-area: 20 / 1 / 25 / 1;
+        flex-direction: column;
+        text-align: center;
+        padding: 30px;
+    }
+
+    .bloco-eight p {
+        font-size: 7vw;
+        max-width: 60%;
+        
+    }
+
+    .bloco-seven {
+        grid-area: 25 / 1 / 30 / 1;
+    }
+
+    .bloco-seven small {
+        font-size: 7vw;
+    }
+
+    .bloco-seven p {
+        font-size: 5vw;
+        font-weight: 300;
+    }
+
+    .bloco-seven img {
+        width: 50%;
+    }
+        
+    .bloco-one {
+        grid-area: 30 / 1 / 35 / 1 ;
+    }
+
+    .bloco-one p { 
+        font-size: 7vw;
+        line-height: 80%;
+        max-width: 80%;
+    }
+
+    .bloco-one img {
+        width: 40vw;
+    }
+
+    .bloco-four { 
+        grid-area: 35 / 1 / 40 / 1;
+    }
+
+    .bloco-four p {
+        font-size: 8vw;
+        max-width: 80%;
+    }
+
+    .bloco-four img {
+        width: 70%;
+    }
+
+
+}
